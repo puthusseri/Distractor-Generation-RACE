@@ -1,0 +1,28 @@
+[2019-06-05 21:55:47,396 INFO] From: data/processed.vocab.pt
+[2019-06-05 21:55:47,396 INFO] 	* source vocab: 50004 words
+[2019-06-05 21:55:47,396 INFO] 	* target vocab: 50004 words
+[2019-06-05 21:59:32,104 INFO] Got 2196007 encryption embeddings from /home/zhouxiaorui/Distractor-Generation-RACE/data/glove/glove.840B.300d.txt
+[2019-06-05 22:03:51,481 INFO] Got 2196007 decryption embeddings from /home/zhouxiaorui/Distractor-Generation-RACE/data/glove/glove.840B.300d.txt
+[2019-06-05 22:03:53,036 INFO] 
+Matching: 
+[2019-06-05 22:03:53,037 INFO] 	* enc: 44022 match, 5982 missing, (88.04%)
+[2019-06-05 22:03:53,037 INFO] 	* dec: 44022 match, 5982 missing, (88.04%)
+[2019-06-05 22:03:53,037 INFO] 
+Filtered embeddings:
+[2019-06-05 22:03:53,037 INFO] 	* enc: torch.Size([50004, 300])
+[2019-06-05 22:03:53,037 INFO] 	* dec: torch.Size([50004, 300])
+[2019-06-05 22:03:53,037 INFO] 
+Saving embedding as:
+	* enc: data/processed.glove.enc.pt
+	* dec: data/processed.glove.dec.pt
+[2019-06-05 22:03:53,124 INFO] 
+Done.
+[2019-07-27 21:21:36,033 INFO] From: data/processed.vocab.pt
+[2019-07-27 21:21:36,054 INFO] 	* source vocab: 50004 words
+[2019-07-27 21:21:36,054 INFO] 	* target vocab: 50004 words
+[2019-07-27 23:01:46,379 INFO] From: data/processed.vocab.pt
+[2019-07-27 23:01:46,380 INFO] 	* source vocab: 50004 words
+[2019-07-27 23:01:46,380 INFO] 	* target vocab: 50004 words
+[2019-12-31 21:06:57,833 INFO] From: data/processed.vocab.pt
+[2019-12-31 21:06:57,833 INFO] 	* source vocab: 50004 words
+[2019-12-31 21:06:57,833 INFO] 	* target vocab: 50004 words
